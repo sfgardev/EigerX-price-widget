@@ -1,0 +1,13 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "asset": "BTC",
+      "price": 19356.85
+    },
+    {
+      "asset": "ETH",
+      "price": 1298.23
+    }
+  ]
+}

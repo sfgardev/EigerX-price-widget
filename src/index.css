@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #000;
+}
+
+.App {
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+}
+
+table {
+  width: 600px;
+  border-spacing: 0;
+  border: 1px solid black;
+  border-bottom: none;
+  margin-bottom: 1rem;
+}
+
+th:not(:last-child),
+td:not(:last-child) {
+  border-right: 1px solid black;
+}
+
+td,
+th {
+  border-bottom: 1px solid black;
+}
+
+th,
+td {
+  padding: 0.5rem;
+  text-align: left;
+}
+
+.widget-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+
+
+.nodata-text {
+  margin-bottom: 1rem;
+}
+
+#error-behavior {
+  margin-left: auto;
+}
